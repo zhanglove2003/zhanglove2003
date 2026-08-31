@@ -51,9 +51,9 @@
 
 ## 📊 GitHub 数据
 
-![GitHub 统计](https://github-readme-stats.vercel.app/api?username=zhanglove2003&show_icons=true&theme=tokyonight)
+![GitHub Streak](https://streak-stats.demolab.com?user=zhanglove2003&theme=tokyonight)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=zhanglove2003&layout=compact&theme=tokyonight)
+![Top Langs](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=zhanglove2003&theme=tokyonight)
 
 ---
 
