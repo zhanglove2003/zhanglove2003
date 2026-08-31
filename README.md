@@ -1,16 +1,16 @@
 # Hi there, I'm Snow Plucking 👋
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=34D399&center=true&width=460&lines=Full-stack+Developer;Open+Source+Enthusiast;Love+building+products)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=34D399&center=true&width=460&lines=Vibe+Coding+Engineer;AI-powered+Developer;Love+building+products)](https://git.io/typing-svg)
 
-> 全栈开发者 · 独立开发者 · 喜欢把一个想法从 0 到 1 做出来
+> Vibe Coding 工程师 · 独立开发者 · 喜欢把一个想法从 0 到 1 做出来
 
 ---
 
 ## 🧑‍💻 关于我
 
 - 🔭 正在做：GPT 注册自动化、桌面工具
-- 🌱 正在学：全栈开发 / 智能体应用
-- 💬 问我：全栈开发
+- 🌱 正在学：Vibe Coding / 智能体应用
+- 💬 问我：Vibe Coding 开发
 - ⚡ 喜欢：吃饭、睡觉、写代码
 
 ---
