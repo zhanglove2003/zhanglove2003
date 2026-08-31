@@ -57,6 +57,12 @@
 
 ---
 
+## 🏔️ 3D 贡献图
+
+![3D 贡献图](https://raw.githubusercontent.com/zhanglove2003/zhanglove2003/main/profile-3d-contrib/profile-night-green.svg)
+
+---
+
 ## 🚀 我的项目
 
 - [gpt-register-clean](https://github.com/zhanglove2003/gpt-register-clean) — GPT 注册桌面控制台（AGPL-3.0）
