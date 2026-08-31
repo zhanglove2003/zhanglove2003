@@ -49,14 +49,6 @@
 
 ---
 
-## 📊 GitHub 数据
-
-![GitHub Streak](https://streak-stats.demolab.com?user=zhanglove2003&theme=tokyonight)
-
-![Top Langs](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=zhanglove2003&theme=tokyonight)
-
----
-
 ## 🏔️ 3D 贡献图
 
 ![3D 贡献图](https://raw.githubusercontent.com/zhanglove2003/zhanglove2003/main/profile-3d-contrib/profile-night-green.svg)
