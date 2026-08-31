@@ -66,8 +66,4 @@
 
 ---
 
-## 📫 联系方式
-
-- 🌐 博客：[snowovo.cc.cd/blog](https://snowovo.cc.cd/blog)
-
 欢迎交流，一起搞点有意思的东西！
