@@ -1,51 +1,43 @@
 # Hi there, I'm Snow Plucking 👋
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=34D399&center=true&width=460&lines=Vibe+Coding+Engineer;AI-powered+Developer;Love+building+products)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=34D399&center=true&width=520&lines=Embedded+Developer+%7C+STM32+%2B+ESP8266;IoT+%26+Sensor+Systems;Bare-metal+HAL+%2B+RTOS+learner)](https://git.io/typing-svg)
 
-> Vibe Coding 工程师 · 独立开发者 · 喜欢把一个想法从 0 到 1 做出来
+> 嵌入式开发 · STM32 / ESP8266 · 物联网与传感器系统 · 独立完成从硬件到云端的全链路
 
 ---
 
 ## 🧑‍💻 关于我
 
-- 🔭 正在做：GPT 注册自动化、桌面工具
-- 🌱 正在学：Vibe Coding / 智能体应用
-- 💬 问我：Vibe Coding 开发
+- 🔭 正在做：STM32 双节点环境监测系统（LoRa + MQTT 上云）
+- 🌱 正在学：FreeRTOS、嵌入式 C、通信协议
+- 💬 问我：STM32 HAL 开发、I2C/SPI/ADC 驱动、MQTT 上云
 - ⚡ 喜欢：吃饭、睡觉、写代码
 
 ---
 
 ## 🛠️ 技术栈
 
-**后端 / 脚本**
-
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=white)
-![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-
-**桌面应用**
-
-![Electron](https://img.shields.io/badge/-Electron-47848F?style=flat-square&logo=electron&logoColor=white)
-![.NET](https://img.shields.io/badge/-.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-
-**嵌入式**
+**嵌入式（主方向）**
 
 ![STM32](https://img.shields.io/badge/-STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
 ![ESP8266](https://img.shields.io/badge/-ESP8266-000000?style=flat-square&logo=espressif&logoColor=white)
+![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=white)
+![Keil](https://img.shields.io/badge/-Keil_MDK--ARM-0091BD?style=flat-square&logo=arm&logoColor=white)
+![PlatformIO](https://img.shields.io/badge/-PlatformIO-F5822A?style=flat-square&logo=platformio&logoColor=white)
 
-**工具与部署**
+**通信与云平台**
 
+![MQTT](https://img.shields.io/badge/-MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
+![LoRa](https://img.shields.io/badge/-LoRa-00A1E0?style=flat-square&logo=lorawan&logoColor=white)
+![OneNet](https://img.shields.io/badge/-OneNet-1E90FF?style=flat-square&logo=cloud&logoColor=white)
+
+**上位机 / 工具**
+
+![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/-WPF-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/-Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-
-**AI / Agent**
-
-![Codex](https://img.shields.io/badge/-Codex-000000?style=flat-square&logo=codex&logoColor=white)
-![Claude](https://img.shields.io/badge/-Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![DeepSeek](https://img.shields.io/badge/-DeepSeek-4D6BFE?style=flat-square&logo=deepseek&logoColor=white)
 
 ---
 
@@ -57,10 +49,15 @@
 
 ## 🚀 我的项目
 
-- [gpt-register-clean](https://github.com/zhanglove2003/gpt-register-clean) — GPT 注册桌面控制台（AGPL-3.0）
-- [yimeng-login-fix](https://github.com/zhanglove2003/yimeng-login-fix) — 一梦江湖登录修复
-- [icloud-private-email](https://github.com/zhanglove2003/icloud-private-email) — iCloud 隐私邮箱使用教程
-- [clash-verge-non-hk-rotation](https://github.com/zhanglove2003/clash-verge-non-hk-rotation) — Clash Verge 非港轮询配置
+### 嵌入式
+
+- [**MyStm32_Esp8266project**](https://github.com/zhanglove2003/MyStm32_Esp8266project) — STM32F103 双节点环境监测系统：DHT12 + MQ135 采集 → LoRa 传输 → TFT 显示 → ESP8266 MQTT 上云。连续运行 48h 无死机，上报成功率 ~95%。含 3D 布线模型与逐引脚对照表
+- [**BetterESP8266firmware**](https://github.com/zhanglove2003/BetterESP8266firmware) — ESP8266 独立固件：WiFi 管理 + ThingsBoard MQTT 遥测/RPC + STM32 串口桥接，PlatformIO 构建带 CI
+- [**relay-balance-monitor**](https://github.com/zhanglove2003/relay-balance-monitor) — C#/WPF 继电器余额监控桌面应用
+
+### 其他
+
+- [codex-desktop-performance-notes](https://github.com/zhanglove2003/codex-desktop-performance-notes) — 桌面应用卡顿与写入放大的诊断记录
 
 ---
 
