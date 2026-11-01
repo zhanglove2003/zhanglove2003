@@ -18,6 +18,48 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+      - name: Replace star count with commit count
+        env:
+          GH_TOKEN: ${{ github.token }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          START=$(date -d "1 year ago" +%F)
+          COUNT=$(gh api "search/commits?q=author:${OWNER}+author-date:>=${START}" --jq '.total_count' || echo 0)
+          echo "commits by ${OWNER} since ${START}: ${COUNT}"
+          python3 - "$COUNT" <<'PYEOF'
+          import glob
+          import re
+          import sys
+
+          count = sys.argv[1]
+          # 星星图标(Octicon star) + 其后的数字文本
+          pat = re.compile(
+              r'<g transform="translate\((\d+), 802\), scale\(2\)">'
+              r'<path[^>]*d="M8 \.25a\.75[^"]*"[^>]*></path></g>'
+              r'<text[^>]*x="(\d+)"[^>]*>\d+(?:<title>\d+</title>)?</text>'
+          )
+          # Octicon git-commit 图标 + commit 数
+          repl_tpl = (
+              '<g transform="translate({x}, 802), scale(2)">'
+              '<path fill-rule="evenodd" '
+              'd="M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32'
+              'a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5Zm-1.43-.75'
+              'a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z" '
+              'class="fill-fg"></path></g>'
+              '<text style="font-size: 32px; font-weight: bold;" x="{tx}" y="830" '
+              'text-anchor="start" class="fill-fg">{count}</text>'
+          )
+          for f in sorted(glob.glob('profile-3d-contrib/*.svg')):
+              s = open(f, encoding='utf-8').read()
+              m = pat.search(s)
+              if not m:
+                  print(f, '-> star footer not found, skipped')
+                  continue
+              x, tx = m.group(1), m.group(2)
+              s = s[:m.start()] + repl_tpl.format(x=x, tx=tx, count=count) + s[m.end():]
+              open(f, 'w', encoding='utf-8').write(s)
+              print(f, '-> star replaced with commit count', count)
+          PYEOF
       - name: Commit & Push
         run: |
           git config user.name "zhanglove2003"
