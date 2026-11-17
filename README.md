@@ -62,11 +62,17 @@
 
 ---
 
-## 🏔️ 3D 贡献图
+## 🏔️ 3D 贡献图 & 贡献贪吃蛇
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/zhanglove2003/zhanglove2003/main/profile-3d-contrib/profile-night-green.svg" alt="3D 贡献图">
+<img src="https://raw.githubusercontent.com/zhanglove2003/zhanglove2003/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D 贡献图">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zhanglove2003/zhanglove2003/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zhanglove2003/zhanglove2003/output/github-snake.svg">
+  <img alt="贡献格子贪吃蛇动画" src="https://raw.githubusercontent.com/zhanglove2003/zhanglove2003/output/github-snake.svg">
+</picture>
 
 </div>
 
